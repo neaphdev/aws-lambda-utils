@@ -4,6 +4,8 @@ from pathlib import Path
 import boto3
 import requests
 
+current_file_path = Path(__file__).resolve()
+
 
 def download_lambda_function(
     function_name: str,
@@ -11,6 +13,8 @@ def download_lambda_function(
     profile_name: str = None,
 ) -> bool:
     try:
+        # if downloads folder does not exist, create it
+
         # Create a session with the specified profile, if provided
         if profile_name:
             session = boto3.Session(profile_name=profile_name)
@@ -29,7 +33,6 @@ def download_lambda_function(
         code_url = response["Code"]["Location"]
 
         # Get the absolute path of the current file
-        current_file_path = Path(__file__).resolve()
 
         # Define the output file path using pathlib
         output_file_path = (
