@@ -10,7 +10,7 @@ current_file_path = Path(__file__).resolve()
 def download_lambda_function(
     function_name: str,
     output_file: str,
-    profile_name: str = None,
+    profile_name: str = "bdev",
 ) -> bool:
     try:
         # if downloads folder does not exist, create it
