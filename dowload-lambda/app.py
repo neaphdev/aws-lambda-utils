@@ -26,7 +26,9 @@ def download_lambdas():
         if file.filename == "":
             return json.dumps({"error": "No selected file"}), 400
         # Read file and convert it to pandas dataframe
-        if file:
+        save_file_log = False
+        df = None
+        if file and save_file_log:
             df = pd.read_csv(file, header=None)
             df = df.fillna("")
             date_today_str = pd.Timestamp.today().strftime("%Y%m%d-%H%M")
@@ -53,4 +55,5 @@ def download_lambdas():
 
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    # app.run(debug=True)
+    app.run(host="0.0.0.0", port=5000)

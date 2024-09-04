@@ -1,0 +1,60 @@
+{
+    "Configuration": {
+        "FunctionName": "testpopupcreditov2appbim3-testpopupcreditov2appbim-73db7RzFQHo5",
+        "FunctionArn": "arn:aws:lambda:us-east-1:807895504709:function:testpopupcreditov2appbim3-testpopupcreditov2appbim-73db7RzFQHo5",
+        "Runtime": "python3.11",
+        "Role": "arn:aws:iam::807895504709:role/exec_lambda_from_lambda_pdp_ewp",
+        "Handler": "lambda_function.lambda_handler",
+        "CodeSize": 1416223,
+        "Description": "",
+        "Timeout": 30,
+        "MemorySize": 128,
+        "LastModified": "2024-04-24T20:20:16.358+0000",
+        "CodeSha256": "LBpUuK8kAYeSO6nFomC486pjLYZSojjdE/cojzt3d7g=",
+        "Version": "$LATEST",
+        "VpcConfig": {
+            "SubnetIds": [
+                "subnet-0bbf1a8122f4d250b"
+            ],
+            "SecurityGroupIds": [
+                "sg-09efd421959aca7cc"
+            ],
+            "VpcId": "vpc-07c01a8e49542549f",
+            "Ipv6AllowedForDualStack": false
+        },
+        "TracingConfig": {
+            "Mode": "PassThrough"
+        },
+        "RevisionId": "3756a280-39f1-416a-bb7f-fbe641d0c181",
+        "State": "Active",
+        "LastUpdateStatus": "Successful",
+        "PackageType": "Zip",
+        "Architectures": [
+            "x86_64"
+        ],
+        "EphemeralStorage": {
+            "Size": 512
+        },
+        "SnapStart": {
+            "ApplyOn": "None",
+            "OptimizationStatus": "Off"
+        },
+        "RuntimeVersionConfig": {
+            "RuntimeVersionArn": "arn:aws:lambda:us-east-1::runtime:7922becca3524b6503b11e59f33405b21aca377582c11bd54243092ba71b57d5"
+        },
+        "LoggingConfig": {
+            "LogFormat": "Text",
+            "LogGroup": "/aws/lambda/testpopupcreditov2appbim3-testpopupcreditov2appbim-73db7RzFQHo5"
+        }
+    },
+    "Code": {
+        "RepositoryType": "S3",
+        "Location": "https://prod-04-2014-tasks.s3.us-east-1.amazonaws.com/snapshots/807895504709/testpopupcreditov2appbim3-testpopupcreditov2appbim-73db7RzFQHo5-c83e7d29-de69-457a-871d-30a4cf297795?versionId=1PC6hIB8Ar3wptZUpj2SnuynYrpWG9Pd&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEM%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJGMEQCIBqs36imposgHu0WM2f7ZyfsnmVeWgOFGKHggAg2RuYsAiAU9vcWHjzY3UTpouayKW%2BUX2HXIcghFRRt0XD0eeKwNyq6BQio%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDc0OTY3ODkwMjgzOSIMjUpfErvTI3lQaJu0Ko4FPG9LjCIXF07ohri%2Btd76SvwNyua8ZwKNKQp7xpe%2B0PoBvifxnMdXJaN6yAPvAvYuE3M0nnaaokSOfXVPHjme1SfjnzgEZW5dx3MqFg26bXQvBjks06tfoxhQ97lPgpnLAWx0yeHS6dPhAkFk39WSoZLetkZPSIR8TnCavk8xKndOBLtd9UYe1sYSHa6V%2FCoj2fTIzltE%2FbUrGBHC4Dn1ZOOf6tehbBgQibyrW1%2FlVTqp%2FZ%2F2wOSuak%2FptREMFYgJzWVLs3YHeZV6Q1wok8KwMWgUprPTZWNP8dVz9YDAfq%2FU0U8F%2FQZC3OOZB8tIwwWG9G67T8KDE3yEG%2BkiorHDJ7iTwr%2BTVgXkxz0RwHepLY3ERY3DWiZk4cVWla%2BIHI7mMZjAOsDlMfpM6TTfVjYEh3w9thHdARXuOj57pet6ZMFJeJl7xrj1hfP8mwE5lQuhZPecYCgxOZ3It%2FW7UOybpGV2TuKyMixaUzci4mfkjKsouwU1ntAaM%2BaCqO1ITvXWw1Ahfgs8AuRJIB1%2FnqmUYjQY6JeThc12ABgSy1J9zy3Vv07SVVNt9RdSckUXjOKEfHtPm9wIFYlUFa3117UFuLug7sWLWB8lrAF%2F5Qz07H1%2BVXF%2FYRRJb48yZSkic2bzwstS5EXREN2y4tRKZHLXv54ttoGjCccq8htGgGRw3f6MfYraejJpM3aP%2F41lyOLBJjrMPZs2axBzE4cmfhwoJqm57wdgmTnCJ753xCktt4iPyWYCC%2Bxk5sbgPTBR8gP5mLCPL3VcFxwP0ONVM1fpamMfGPT0De5WX7q8RDUut0cZbPejcCIJpWk3vhdZVc7XreTbGwelf9vMEKBMjbpCgQz50%2FTssno6aKfTP6LUMJythLUGOrIBeOViu5WLeNlkiB0Rtxb7XcgpuxEhvE8M0rnzXpg9yVBGWGHHCDg2VlZmJ4WEQneERM6YT98ouqx5b4I2ITl295k2uJx222gOdaNfTU0YrCPoI84%2BRIogmQdYpsv7kNh1bQNndq17Zylw%2BCReN0ZavSzjRoo3XsZClCva%2BA1Hl4LmHAABVS9k%2F%2BPl59GxWHCb%2F3OqyPUSPfq3BPvtHxTZ1a6eaYHiW9m6X2qvrM9H7pYWWQ%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20240724T151926Z&X-Amz-SignedHeaders=host&X-Amz-Expires=600&X-Amz-Credential=ASIA25DCYHY3ZBB5DZ4G%2F20240724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=bcf812972937c64492f136a2cc23894faf85e6de372cab1a3c45d82ba295c9b2"
+    },
+    "Tags": {
+        "aws:cloudformation:stack-name": "testpopupcreditov2appbim320",
+        "lambda:createdBy": "SAM",
+        "aws:cloudformation:stack-id": "arn:aws:cloudformation:us-east-1:807895504709:stack/testpopupcreditov2appbim320/35e0d580-026e-11ef-8e86-0e3e89454e27",
+        "aws:cloudformation:logical-id": "testpopupcreditov2appbim320"
+    }
+}

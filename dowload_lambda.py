@@ -1,0 +1,1 @@
+aws lambda get-function --function-name testpopupcreditov2appbim3-testpopupcreditov2appbim-73db7RzFQHo5
